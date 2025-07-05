@@ -1,4 +1,23 @@
-# Getting Started with Create React App
+#QRCodeGen
+<h1 align="center">QR code generator | devChallenges</h1>
+
+<div align="center">
+   Solution for a challenge <a href="https://devchallenges.io/challenge/qa-code-generator" target="_blank">QR code generator </a> from <a href="http://devchallenges.io" target="_blank">devChallenges.io</a>.
+</div>
+
+<div align="center">
+  <h3>
+    <a href="https://qr-code-gen-six-psi.vercel.app">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenge/qa-code-generator">
+      Challenge
+    </a>
+  </h3>
+</div>
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
