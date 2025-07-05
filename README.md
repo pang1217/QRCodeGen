@@ -1,4 +1,4 @@
-#QRCodeGen
+# QRCodeGen
 <h1 align="center">QR code generator | devChallenges</h1>
 
 <div align="center">
