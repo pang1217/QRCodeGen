@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState, useRef , useEffect} from "react";
 import { useNavigate } from "react-router-dom";
 import "./CSS/Global.css";
 import "./CSS/GeneratePage.css";
@@ -10,6 +10,10 @@ function GeneratePage() {
   const [url, setUrl] = useState("");
   const inputRef = useRef(null);
   const navigate = useNavigate();
+
+  useEffect(() => {
+    document.title = "Generate QR Code";
+  }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();

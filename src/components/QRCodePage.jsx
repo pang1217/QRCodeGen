@@ -16,6 +16,8 @@ function QRCodePage() {
   console.log("Received URL:", url);
 
   useEffect(() => {
+    document.title = "Generate QR Code";
+
     if (!url || !qrRef.current) return;
 
     qrRef.current.innerHTML = ""; // Clear previous QR
@@ -32,6 +34,7 @@ function QRCodePage() {
         canvasRef.current = canvas;
       }
     }, 100);
+
   }, [url]);
 
   const handleDownload = () => {
