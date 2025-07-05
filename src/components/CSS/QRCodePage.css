@@ -1,0 +1,27 @@
+.QR{
+  background-color: #FAFAF9;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.bg{
+  margin: 64px 0px 32px 0px;
+  background-color: #F8FAFC1A;
+  padding: 30px;
+  border-radius: 100%;
+
+}
+
+.option{
+  display: flex;
+  gap: 16px;
+}
+
+.load , .link{ 
+  display: flex;
+  flex-direction: row;
+  gap:16px;
+  padding: 16px 48px;
+  align-items: center;
+  justify-content: center;
+}
